@@ -4,9 +4,10 @@ SteemCatcher connects to the **SteemCatcher** server to catch the actions that o
 
 ## Installation
 
-clone repository and then:
+To test this toy clone repository and then:
 ```
 npm install
+node index.js
 ```
 
 ## Actions to listening
