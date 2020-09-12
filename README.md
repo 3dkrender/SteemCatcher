@@ -36,24 +36,21 @@ npm install
 
 ## Examples
 
-To catch votes:
+**To catch votes:**
 ```
 ioSteem.on("vote", data => {
     console.log(data);
 });
 ```
 *result:*
-
+```
 voter: data.voter
-
 author: data.author
-
 permlink: data.permlink
-
 weight: data.weight
+```
 
-
-To catch post (no comments):
+**To catch post (no comments):**
 ```
 ioSteem.on("post", data => {
     console.log(data);
