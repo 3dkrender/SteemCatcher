@@ -10,7 +10,7 @@ npm install
 ```
 
 ## Actions to listening
-
+```
  - post
  - comment
  - comment_options
@@ -33,6 +33,7 @@ npm install
 
  - limit_order_create
  - limit_order_cancel
+```
 
 ## Examples
 
