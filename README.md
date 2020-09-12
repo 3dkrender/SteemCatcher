@@ -11,27 +11,28 @@ npm install
 
 ## Actions to listening
 
- *      post
- *      comment
- *      comment_options
- *      delete_comment
- *      vote
- * 
- *      transfer
- *      transfer_to_vesting
- * 
- *      custom_json
- * 
- *      claim_account
- *      created_claimed_account
- *      account_update
- *      claim_reward_balance
- *      delegate_vesting_shares
- * 
- *      feed_publish
- * 
- *      limit_order_create
- *      limit_order_cancel
+ - post
+ - comment
+ - comment_options
+ - delete_comment
+ - vote
+
+ - transfer
+ - transfer_to_vesting
+
+ 
+ - custom_json
+
+ - claim_account
+ - created_claimed_account
+ - account_update
+ - claim_reward_balance
+ - delegate_vesting_shares
+
+ - feed_publish
+
+ - limit_order_create
+ - limit_order_cancel
 
 ## Examples
 
@@ -42,10 +43,15 @@ ioSteem.on("vote", data => {
 });
 ```
 *result:*
+
 voter: data.voter
+
 author: data.author
+
 permlink: data.permlink
+
 weight: data.weight
+
 
 To catch post (no comments):
 ```
